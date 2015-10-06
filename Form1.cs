@@ -20,6 +20,7 @@ namespace WindowsFormsApplication2
             pass1.PasswordChar = '*';
             pass2.PasswordChar = '*';
             PasswordLog.PasswordChar = '*';
+            //These panels will not show up on Startup
             Logged.Visible = false;
             Login.Visible = false;
             
@@ -79,6 +80,7 @@ namespace WindowsFormsApplication2
                 username.Text = "";
                 pass1.Text = "";
                 pass2.Text = "";
+                //The user will appear on the "Logged in" Panel, after confirming details
                 Logged.Visible = true;
 
             }
